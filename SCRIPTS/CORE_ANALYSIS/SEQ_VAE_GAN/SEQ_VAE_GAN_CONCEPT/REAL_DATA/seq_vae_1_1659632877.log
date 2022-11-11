@@ -1,0 +1,5 @@
+batch_size=32,z_size=64,seq_len=8,emb_dim=64,vocab_size=5000,hidden_dim=32,dropout_keep_prob=0.75,free_bits=0,encoder_learning_rate=0.01,enc_rnn_size=[32, 32],residual_encoder=True,dencoder_learning_rate=0.01,compute_rewards_step=1,dec_update_rate=0.8,rollout_num=16,dis_learning_rate=0.0001,dis_train_freq=5,dis_filter_sizes=[1, 2, 3, 4, 6, 8],dis_num_filters=[100, 200, 100, 200, 200, 100]
+Start pre-training...
+pre-train epoch  0 kl_loss:  0.9554144 r_loss:  7.5932474 nll:  11.2864895
+pre-train epoch  5 kl_loss:  0.3580886 r_loss:  6.422329 nll:  11.285154
+pre-train epoch  10 kl_loss:  0.039015833 r_loss:  5.7282267 nll:  11.297801

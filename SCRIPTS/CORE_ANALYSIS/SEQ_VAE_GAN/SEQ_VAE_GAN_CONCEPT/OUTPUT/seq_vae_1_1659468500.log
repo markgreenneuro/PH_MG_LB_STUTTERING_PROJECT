@@ -1,0 +1,32 @@
+batch_size=32,z_size=64,seq_len=8,emb_dim=64,vocab_size=5000,hidden_dim=32,dropout_keep_prob=0.75,free_bits=0,encoder_learning_rate=0.01,enc_rnn_size=[32, 32],residual_encoder=True,dencoder_learning_rate=0.01,compute_rewards_step=1,dec_update_rate=0.8,rollout_num=16,dis_learning_rate=0.0001,dis_train_freq=5,dis_filter_sizes=[1, 2, 3, 4, 6, 8],dis_num_filters=[100, 200, 100, 200, 200, 100]
+Start pre-training...
+pre-train epoch  0 kl_loss:  1.9459039 r_loss:  8.1653385 nll:  11.271927
+pre-train epoch  5 kl_loss:  1.1561567 r_loss:  5.773454 nll:  11.306031
+pre-train epoch  10 kl_loss:  1.1663686 r_loss:  3.3715549 nll:  11.304736
+pre-train epoch  15 kl_loss:  0.54767936 r_loss:  2.1526458 nll:  11.272148
+pre-train epoch  20 kl_loss:  0.53077644 r_loss:  1.5671262 nll:  11.265135
+pre-train epoch  25 kl_loss:  0.52042735 r_loss:  1.2937293 nll:  11.265035
+pre-train epoch  30 kl_loss:  0.5418135 r_loss:  1.1493356 nll:  11.261839
+pre-train epoch  35 kl_loss:  0.46771717 r_loss:  1.0668988 nll:  11.271045
+Start pre-training discriminator...
+#########################################################################
+Start Training...
+epoch:  0 kl_loss:  0.9229567 pg_loss:  23.834286 nll:  11.254325
+epoch:  1 kl_loss:  0.71678686 pg_loss:  22.358658 nll:  11.261817
+epoch:  2 kl_loss:  0.9065316 pg_loss:  26.509117 nll:  11.256716
+epoch:  3 kl_loss:  0.26571363 pg_loss:  22.559692 nll:  11.245821
+epoch:  4 kl_loss:  0.58737355 pg_loss:  26.44794 nll:  11.236587
+epoch:  5 kl_loss:  0.6122241 pg_loss:  27.117382 nll:  11.236641
+epoch:  6 kl_loss:  1.4345913 pg_loss:  20.918867 nll:  11.251968
+epoch:  7 kl_loss:  0.3698467 pg_loss:  20.459831 nll:  11.267854
+epoch:  8 kl_loss:  0.3533556 pg_loss:  15.924868 nll:  11.269877
+epoch:  9 kl_loss:  0.6131134 pg_loss:  15.68616 nll:  11.27794
+epoch:  10 kl_loss:  0.46208745 pg_loss:  14.933835 nll:  11.289004
+epoch:  11 kl_loss:  0.57465255 pg_loss:  19.601986 nll:  11.277531
+epoch:  12 kl_loss:  0.8128452 pg_loss:  13.407649 nll:  11.281135
+epoch:  13 kl_loss:  0.46601617 pg_loss:  17.590803 nll:  11.28771
+epoch:  14 kl_loss:  0.42437658 pg_loss:  13.315307 nll:  11.290836
+epoch:  15 kl_loss:  0.39728606 pg_loss:  9.015615 nll:  11.288179
+epoch:  16 kl_loss:  0.28499016 pg_loss:  13.400793 nll:  11.298503
+epoch:  17 kl_loss:  0.35551745 pg_loss:  14.055343 nll:  11.287669
+epoch:  18 kl_loss:  0.25369775 pg_loss:  7.8198295 nll:  11.282878

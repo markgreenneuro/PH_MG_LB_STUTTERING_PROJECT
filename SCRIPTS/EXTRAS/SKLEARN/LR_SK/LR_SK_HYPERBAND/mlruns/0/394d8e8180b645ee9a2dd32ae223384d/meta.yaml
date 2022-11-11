@@ -1,0 +1,15 @@
+artifact_uri: file:///home/msgreen/PycharmProjects/LOG_REG_HYPEROPT/mlruns/0/394d8e8180b645ee9a2dd32ae223384d/artifacts
+end_time: 1645517143257
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 394d8e8180b645ee9a2dd32ae223384d
+run_uuid: 394d8e8180b645ee9a2dd32ae223384d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645517104022
+status: 3
+tags: []
+user_id: msgreen

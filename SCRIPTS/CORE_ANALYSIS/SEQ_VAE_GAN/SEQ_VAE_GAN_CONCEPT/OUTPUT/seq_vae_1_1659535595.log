@@ -1,0 +1,11 @@
+batch_size=32,z_size=64,seq_len=8,emb_dim=64,vocab_size=5000,hidden_dim=32,dropout_keep_prob=0.75,free_bits=0,encoder_learning_rate=0.01,enc_rnn_size=[32, 32],residual_encoder=True,dencoder_learning_rate=0.01,compute_rewards_step=1,dec_update_rate=0.8,rollout_num=16,dis_learning_rate=0.0001,dis_train_freq=5,dis_filter_sizes=[1, 2, 3, 4, 6, 8],dis_num_filters=[100, 200, 100, 200, 200, 100]
+Start pre-training...
+pre-train epoch  0 kl_loss:  1.9619454 r_loss:  8.165199 nll:  11.267927
+pre-train epoch  5 kl_loss:  1.1866102 r_loss:  5.780625 nll:  11.30762
+pre-train epoch  10 kl_loss:  0.9302666 r_loss:  3.3937938 nll:  11.276289
+pre-train epoch  15 kl_loss:  0.9406694 r_loss:  2.1287758 nll:  11.292073
+pre-train epoch  20 kl_loss:  0.5625744 r_loss:  1.5909976 nll:  11.2846365
+pre-train epoch  25 kl_loss:  0.52967227 r_loss:  1.3080145 nll:  11.265306
+pre-train epoch  30 kl_loss:  0.60132813 r_loss:  1.1573373 nll:  11.278844
+pre-train epoch  35 kl_loss:  0.46539703 r_loss:  1.0697665 nll:  11.279956
+Start pre-training discriminator...
